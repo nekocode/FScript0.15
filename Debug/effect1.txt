@@ -1,0 +1,60 @@
+float alpha;
+// 纹理对象
+texture Tex0;
+texture Tex1;
+
+// 纹理采样器
+sampler Samp0 = sampler_state
+{
+    Texture = <Tex0>;
+    MIPFILTER = LINEAR;
+    MINFILTER = LINEAR;
+    MAGFILTER = LINEAR;
+};
+
+sampler Samp1 = sampler_state
+{
+    Texture = <Tex1>;
+    MIPFILTER = LINEAR;
+    MINFILTER = LINEAR;
+    MAGFILTER = LINEAR;
+};
+
+// 输入结构
+struct PS_INPUT
+{
+    float2 uvCoords0 : TEXCOORD0;
+    float2 uvCoords1 : TEXCOORD1;
+};
+
+
+float4 effect1(PS_INPUT input) : COLOR
+{
+	float4 texcolor = tex2D(Samp0, input.uvCoords0);
+	float4 texcolor2 = tex2D(Samp1, input.uvCoords1);
+
+	if(texcolor.a == 0.0&&texcolor2.a == 0.0)
+	{
+		texcolor.a = 0.0;
+	}
+	else if(texcolor.a != 0.0&&texcolor2.a == 0.0)
+	{
+		texcolor.a = texcolor.a * (1.0-alpha);
+	}
+	else if(texcolor2.a != 0.0&&texcolor.a == 0.0)
+	{
+		texcolor.a = texcolor2.a * alpha;
+		texcolor.r = texcolor2.r;
+		texcolor.g = texcolor2.g;
+		texcolor.b = texcolor2.b;
+	}
+	else
+	{
+		texcolor.a = texcolor2.a  * alpha + texcolor.a * (1.0-alpha);
+		texcolor.r = texcolor2.r * alpha + texcolor.r * (1.0 - alpha);
+		texcolor.g = texcolor2.g * alpha + texcolor.g * (1.0 - alpha);
+		texcolor.b = texcolor2.b * alpha + texcolor.b * (1.0 - alpha);
+	}
+
+	return texcolor;
+}

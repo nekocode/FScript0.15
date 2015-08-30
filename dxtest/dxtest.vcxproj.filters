@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="像素着色器">
+      <UniqueIdentifier>{dada2f85-0a10-4e0f-b99b-37cc91dfb44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="_头文件\声音视频模块">
+      <UniqueIdentifier>{bf5ad03f-95fb-4ceb-b568-ade4bf56ebf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_头文件\其他模块">
+      <UniqueIdentifier>{c87148fc-804f-49dd-8804-63e55291c1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_头文件\字体模块">
+      <UniqueIdentifier>{e8f604d4-1654-4656-ab21-916b28747965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_头文件\文件处理模块">
+      <UniqueIdentifier>{c3921017-5dd5-4fc9-b29d-e58925a781ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_源文件\声音视频模块">
+      <UniqueIdentifier>{da87da1f-a792-48ff-94f7-1e3771a76541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_源文件\字体模块">
+      <UniqueIdentifier>{dca92ebf-a2fe-446c-8785-f6de5bfe6b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_源文件\其他模块">
+      <UniqueIdentifier>{647081c3-405b-4610-993d-8436c22f5863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_源文件\文件处理模块">
+      <UniqueIdentifier>{ceabb2fd-b57c-4afd-8810-2331549e4037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_头文件\图片模块">
+      <UniqueIdentifier>{230ec8fd-f552-4686-92bf-68f5da988523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_源文件\图片模块">
+      <UniqueIdentifier>{f3be023d-b32a-4360-9b52-84f5dc31d437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_头文件\鼠标键盘处理模块">
+      <UniqueIdentifier>{534f146e-71d5-4a68-94be-051a44dd4ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_源文件\鼠标键盘处理模块">
+      <UniqueIdentifier>{133d647e-3641-45c1-bdb6-7046b4b91b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_头文件\d3d主模块">
+      <UniqueIdentifier>{7bf0ee99-ea23-48eb-a7a6-0d014e0edfc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_源文件\d3d主模块">
+      <UniqueIdentifier>{0e46ab0b-ec42-4db9-ac8d-c365ef1da0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_头文件\按钮模块">
+      <UniqueIdentifier>{8558e9bf-fbac-4fd6-a607-6026ae33f177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_源文件\按钮模块">
+      <UniqueIdentifier>{30351407-8dd7-4bd9-8329-04b63f043a19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\win.cpp">
+      <Filter>_源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\gameMain.cpp">
+      <Filter>_源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\dxdraw.cpp">
+      <Filter>_源文件\d3d主模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\FreeTypeLib.cpp">
+      <Filter>_源文件\字体模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\textdraw.cpp">
+      <Filter>_源文件\字体模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\file.cpp">
+      <Filter>_源文件\文件处理模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\video.cpp">
+      <Filter>_源文件\声音视频模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\sleep.cpp">
+      <Filter>_源文件\其他模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\musicplay.cpp">
+      <Filter>_源文件\声音视频模块</Filter>
+    </ClCompile>
+    <ClCompile Include="dxImage.cpp">
+      <Filter>_源文件\图片模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\dxinput.cpp">
+      <Filter>_源文件\鼠标键盘处理模块</Filter>
+    </ClCompile>
+    <ClCompile Include="poslist.cpp">
+      <Filter>_源文件\文件处理模块</Filter>
+    </ClCompile>
+    <ClCompile Include="funcReturnList.cpp">
+      <Filter>_源文件\文件处理模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\variable.cpp">
+      <Filter>_源文件\文件处理模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\fans%27C++Project\dxtest\dxtest\butn.cpp">
+      <Filter>_源文件\按钮模块</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\win.h">
+      <Filter>_头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\gameMain.h">
+      <Filter>_头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\dxdraw.h">
+      <Filter>_头文件\d3d主模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\FreeTypeLib.h">
+      <Filter>_头文件\字体模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\textdraw.h">
+      <Filter>_头文件\字体模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\file.h">
+      <Filter>_头文件\文件处理模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\libzplay\libzplay.h">
+      <Filter>_头文件\声音视频模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\musicplay.h">
+      <Filter>_头文件\声音视频模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\video.h">
+      <Filter>_头文件\声音视频模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\sleep.h">
+      <Filter>_头文件\其他模块</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dxImage.h">
+      <Filter>_头文件\图片模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\dxinput.h">
+      <Filter>_头文件\鼠标键盘处理模块</Filter>
+    </ClInclude>
+    <ClInclude Include="poslist.h">
+      <Filter>_头文件\文件处理模块</Filter>
+    </ClInclude>
+    <ClInclude Include="funcReturnList.h">
+      <Filter>_头文件\文件处理模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\variable.h">
+      <Filter>_头文件\文件处理模块</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\fans%27C++Project\dxtest\dxtest\butn.h">
+      <Filter>_头文件\按钮模块</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\fans%27C++Project\dxtest\dxtest\effect1.txt">
+      <Filter>像素着色器</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fsrc.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
