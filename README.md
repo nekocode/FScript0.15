@@ -15,7 +15,7 @@
 
 
 ### 分支以及相关系列说明
-- **[Fscript 0.1x 系列](http://git.oschina.net/nekocode/FScript0.15)**：
+- **[Fscript 0.1x 系列](https://github.com/nekocode/FScript0.15)**：
 采用自定义 `fscript` 语法驱动引擎
 
 ```
@@ -54,7 +54,7 @@ bk "pic\bk\b40c.jpg"
 clecho
 ```
 
-- **[Fscript 0.2x 系列](http://git.oschina.net/nekocode/FScript0.2)**：
+- **[Fscript 0.2x 系列](https://github.com/nekocode/FScript0.2)**：
 采用自定义修改后的 `lua` 语法驱动引擎
 
 ```
@@ -91,5 +91,5 @@ go(":end")
 :end4
 ```
 
-- **[Fscript IDE(for fs 0.1x)](http://git.oschina.net/nekocode/FScriptIDE)**：
+- **[Fscript IDE(for fs 0.1x)](https://github.com/nekocode/FScriptIDE)**：
 通过拓展 `notepad++` 为 fs 引擎提供方便的 IDE
