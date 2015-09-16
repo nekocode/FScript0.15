@@ -1,7 +1,7 @@
 # README
 
 ### Preview
-![输入图片说明](http://git.oschina.net/nekocode/FScript0.15/raw/master/art/preview.gif "在这里输入图片标题")
+![输入图片说明](art/preview.gif "在这里输入图片标题")
 
 ### DEMO
 - **[远去之日的花](http://pan.baidu.com/s/1qWvGMQg)**
